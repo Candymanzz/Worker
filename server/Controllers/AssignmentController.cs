@@ -5,7 +5,7 @@ using Worker.Repositories;
 namespace Worker.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/assignments")]
 public class AssignmentController : ControllerBase
 {
     private readonly AssignmentRepository _repository;
